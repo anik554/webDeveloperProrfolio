@@ -22,29 +22,129 @@ nav {
 nav ul li {
   list-style: none;
   margin-left: 30px;
-  
 }
 nav ul li a {
   text-decoration: none;
   font-size: 20px;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
+nav ul {
+  display: flex;
+  align-items: center;
 }
-.dark-02{
-    color: #474747;
+.dark-02 {
+  color: #474747;
+}
+/* shared styled */
+
+.head-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.head-description {
+  font-size: 18px;
+  color: #757575;
 }
 
-.button-primary{
-    background-color: #FD6E0A;
-    color: #fff;
-    border-radius: 5px;
-    width: 150px;
-    height: 65px;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-    padding: 10px;
+.button-primary {
+  background-color: #fd6e0a;
+  color: #fff;
+  border-radius: 5px;
+  width: 150px;
+  height: 65px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
 }
+.header {
+  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: #fff8f3;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 38px 0px 200px;
+}
+.banner-content {
+  /* border: 1px solid black; */
+  max-width: 580px;
+  /* margin: 230px 297px 785px 184px; */
+  /* width: 585px;
+  height: 356px; */
+}
+.into {
+  font-size: 45px;
+  font-weight: 400;
+}
+.intoName {
+  font-size: 85px;
+  font-weight: bold;
+  margin-top: -60px;
+}
+.description {
+  font-size: 18px;
+  margin-top: -60px;
+}
+
+.aboutSection {
+  background-color: #fff8f3;
+  /* margin-top: 103px; */
+  max-width: 1140px;
+  margin: 103px auto;
+  padding: 10px 50px;
+}
+.head-title {
+  text-align: center;
+}
+.head-description {
+  text-align: center;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.about-item {
+  font-size: 20px;
+  color: #757575;
+  
+}
+.item-description {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
+  margin-top: -20px;
+}
+
+/* Skill Section */
+.skills{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.head-descriptions{
+  /* margin: 0 345px; */
+  font-size: 18px;
+  text-align: center;
+  color: #757575;
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+  line-height: 30px;
+}
+.skill-items{
+  display: flex;
+}
+.skill{
+  background-color: #FFFFFF;
+  margin-right: 24px;
+  padding: 32px 30px;
+  height: 260px;
+  max-width: 267px;
+  margin-top: 50px;
+  
+}
+
